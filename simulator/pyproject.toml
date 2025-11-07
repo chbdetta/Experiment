@@ -1,0 +1,20 @@
+[project]
+name = "cybersim"
+version = "0.1.0"
+description = "Modular network traffic simulator for cyber attack experimentation"
+authors = [
+  { name = "Experiment Maintainers" }
+]
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+]
+
+[project.optional-dependencies]
+dev = [
+  "pytest>=7.0",
+]
+
+[build-system]
+requires = ["setuptools>=67", "wheel"]
+build-backend = "setuptools.build_meta"

@@ -1,0 +1,11 @@
+timestamp,src,dst,protocol,bytes,description
+2023-07-01T10:00:00,workstation-1,db-1,TCP,8450,HR payroll query
+2023-07-01T10:00:05,workstation-2,fileserver-1,TCP,12400,File sync
+2023-07-01T10:00:07,workstation-1,fileserver-1,TCP,6700,Shared drive access
+2023-07-01T10:00:12,workstation-3,db-1,TCP,9200,Finance lookup
+2023-07-01T10:00:20,workstation-2,db-1,TCP,4300,Application heartbeat
+2023-07-01T10:00:33,workstation-4,fileserver-1,UDP,2200,Software update
+2023-07-01T10:01:10,workstation-5,internet-gateway,TCP,18800,SaaS usage
+2023-07-01T10:01:35,internet-gateway,workstation-5,TCP,2400,Response traffic
+2023-07-01T10:02:05,workstation-1,internet-gateway,TCP,5100,Command-and-control beacon
+2023-07-01T10:02:35,internet-gateway,workstation-1,TCP,6500,Malicious payload
